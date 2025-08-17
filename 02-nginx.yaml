@@ -9,5 +9,5 @@
   -name: start service
   anisble.builtin.service:
      -name: nginx
-       state: enabled
+     state: enabled
   
