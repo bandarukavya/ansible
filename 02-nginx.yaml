@@ -2,11 +2,11 @@
   hosts: web
   become: yes #equal to -b in adhoc cmds, getting root access
   tasks: 
-  - name: install nginx
+  -name: install nginx
   ansible.builtin.dnf:
     - name: nginx
       state: latest
-  - name: start service
+  -name: start service
   anisble.builtin.service:
     - name: nginx
       state: enabled
