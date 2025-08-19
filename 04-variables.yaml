@@ -1,7 +1,7 @@
 - name: variable
   hosts: localhost
   vars: #variable declaration
-    Course: "Devops with AWS"
+    Course: "Ansible"
     Trainer: "Siva"
     Duration: "120hrs"
   tasks:
